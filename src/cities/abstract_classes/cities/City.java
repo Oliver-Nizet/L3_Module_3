@@ -1,4 +1,4 @@
-package abstract_classes.cities;
+package cities.abstract_classes.cities;
 
 public abstract class City {
 	protected int population;
@@ -17,5 +17,5 @@ public abstract class City {
 		return growthRate;
 	}
 	
-	abstract double getAnnualTaxes();
+	public abstract double getAnnualTaxes();
 }
