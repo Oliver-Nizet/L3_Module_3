@@ -1,8 +1,11 @@
-package interfaces;
+package string.abstract_classes;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import string.concrete_classes.BackwardsString;
+import string.concrete_classes.MixedCapsString;
 
 public class TestInterfaces {
 
@@ -12,7 +15,7 @@ public class TestInterfaces {
 		System.out.println(bs);
 		assertEquals("tset a si sihT", bs.toString());
 	}
-	
+
 	@Test
 	public void testMixedCapsString() {
 		SpecialString mcs = new MixedCapsString("This is also a test");
